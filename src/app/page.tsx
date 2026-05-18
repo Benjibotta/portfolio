@@ -85,7 +85,7 @@ export default function Home() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg md:text-xl text-[#8888AA] max-w-2xl mx-auto mb-10 leading-relaxed"
           >
-            Vidéaste freelance spécialisé en captation iPhone, montage vidéo et contenu IA.
+            Vidéaste freelance spécialisé en tournage professionnel avec matériel mobile haut de gamme, montage vidéo et contenu IA.
             Du brief à la livraison en 5 étapes.
           </motion.p>
 
@@ -119,7 +119,7 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="mt-20 flex flex-wrap justify-center gap-3"
           >
-            {["Captation iPhone", "Montage pro", "Contenu IA", "Marseille · Remote"].map((tag) => (
+            {["Tournage professionnel avec matériel mobile haut de gamme", "Montage pro", "Contenu IA", "Marseille · Remote"].map((tag) => (
               <span
                 key={tag}
                 className="font-mono text-xs px-3 py-1.5 rounded-full"
@@ -146,40 +146,6 @@ export default function Home() {
         </motion.div>
       </section>
 
-      {/* Featured works */}
-      <section className="max-w-6xl mx-auto px-6 py-24">
-        <FadeIn>
-          <div className="flex items-end justify-between mb-12">
-            <div>
-              <p className="font-mono text-xs text-violet-400 tracking-widest mb-2">// SÉLECTION</p>
-              <h2 className="text-3xl md:text-4xl font-bold">Mes meilleurs travaux</h2>
-            </div>
-            <Link
-              href="/travaux"
-              className="hidden md:inline-flex items-center gap-2 text-sm text-[#8888AA] hover:text-violet-400 transition-colors"
-            >
-              Voir tout
-              <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
-                <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
-            </Link>
-          </div>
-        </FadeIn>
-
-        <div className="grid md:grid-cols-3 gap-6">
-          {featuredProjects.map((project, i) => (
-            <FadeIn key={project.id} delay={i * 0.1}>
-              <VideoCard project={project} />
-            </FadeIn>
-          ))}
-        </div>
-
-        <div className="mt-8 md:hidden text-center">
-          <Link href="/travaux" className="text-sm text-violet-400 hover:text-violet-300 transition-colors">
-            Voir tous les travaux →
-          </Link>
-        </div>
-      </section>
 
       {/* CTA */}
       <section className="max-w-6xl mx-auto px-6 mb-24">

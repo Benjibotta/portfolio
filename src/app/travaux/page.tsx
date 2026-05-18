@@ -4,18 +4,39 @@ import { useState } from "react";
 import FadeIn from "@/components/FadeIn";
 import VideoCard from "@/components/VideoCard";
 
-const categories = ["Tout", "Brand Content", "Clip Vidéo", "Documentaire", "Publicité", "Social Media"];
+const categories = ["Tout", "Production IA"];
 
 const allProjects = [
-  { id: 1, title: "Brand Film — Agence Nova", category: "Brand Content", duration: "2:34", videoSrc: "/videos/project1.mp4", poster: "/posters/project1.jpg", tags: ["Color grading", "Motion design", "After Effects"] },
-  { id: 2, title: "Clip musical — Selin K.", category: "Clip Vidéo", duration: "3:12", videoSrc: "/videos/project2.mp4", poster: "/posters/project2.jpg", tags: ["Transitions créatives", "VFX", "Étalonnage"] },
-  { id: 3, title: "Documentaire — Studio Lumière", category: "Documentaire", duration: "8:47", videoSrc: "/videos/project3.mp4", poster: "/posters/project3.jpg", tags: ["Narration", "Son", "Multi-caméra"] },
-  { id: 4, title: "Spot TV — Maison Rivière", category: "Publicité", duration: "0:30", videoSrc: "/videos/project4.mp4", poster: "/posters/project4.jpg", tags: ["Publicité", "Colour", "Rythme"] },
-  { id: 5, title: "Reels Instagram — Lifestyle", category: "Social Media", duration: "0:45", videoSrc: "/videos/project5.mp4", poster: "/posters/project5.jpg", tags: ["Format vertical", "Tendances", "Reels"] },
-  { id: 6, title: "Clip — Lost Frequencies", category: "Clip Vidéo", duration: "4:02", videoSrc: "/videos/project6.mp4", poster: "/posters/project6.jpg", tags: ["EDM", "VFX", "Live footage"] },
-  { id: 7, title: "Mini-doc — Chef Éloi", category: "Documentaire", duration: "6:15", videoSrc: "/videos/project7.mp4", poster: "/posters/project7.jpg", tags: ["Portrait", "Cinéma vérité", "Son ambiant"] },
-  { id: 8, title: "Campagne — Sportswear 2024", category: "Brand Content", duration: "1:00", videoSrc: "/videos/project8.mp4", poster: "/posters/project8.jpg", tags: ["Action", "Slow motion", "Energy"] },
-  { id: 9, title: "Stories TikTok — FoodBrand", category: "Social Media", duration: "0:15", videoSrc: "/videos/project9.mp4", poster: "/posters/project9.jpg", tags: ["Vertical", "Food", "Viral"] },
+  {
+    id: 1,
+    title: "MMUSA — Spot IA #1",
+    category: "Production IA",
+    duration: "",
+    videoSrc: "/videos/mmusa-1.mp4.mp4",
+    poster: "",
+    tags: ["MMUSA", "Créatine liquide", "Production IA"],
+    vertical: true,
+  },
+  {
+    id: 2,
+    title: "MMUSA — Spot IA #2",
+    category: "Production IA",
+    duration: "",
+    videoSrc: "/videos/mmusa-2.mp4.mp4",
+    poster: "",
+    tags: ["MMUSA", "Créatine liquide", "Production IA"],
+    vertical: true,
+  },
+  {
+    id: 3,
+    title: "MMUSA — Spot IA #3",
+    category: "Production IA",
+    duration: "",
+    videoSrc: "/videos/mmusa-3.mp4.mp4",
+    poster: "",
+    tags: ["MMUSA", "Créatine liquide", "Production IA"],
+    vertical: true,
+  },
 ];
 
 export default function Travaux() {
@@ -44,7 +65,7 @@ export default function Travaux() {
             </span>
           </h1>
           <p className="text-[#8888AA] text-lg max-w-xl">
-            Survolez les cartes pour voir un aperçu. Cliquez pour explorer le projet complet.
+            Survolez les cartes pour voir un aperçu.
           </p>
         </FadeIn>
 
@@ -68,20 +89,30 @@ export default function Travaux() {
       </section>
 
       {/* Grid */}
-      <section className="max-w-6xl mx-auto px-6 pb-24">
+      <section className="max-w-4xl mx-auto px-6 pb-16">
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {filtered.map((project, i) => (
-            <FadeIn key={project.id} delay={(i % 6) * 0.07}>
+            <FadeIn key={project.id} delay={i * 0.1}>
               <VideoCard project={project} />
             </FadeIn>
           ))}
         </div>
+      </section>
 
-        {filtered.length === 0 && (
-          <div className="text-center py-20 text-[#8888AA]">
-            <p>Aucun projet dans cette catégorie pour l&apos;instant.</p>
+      {/* Coming soon */}
+      <section className="max-w-4xl mx-auto px-6 pb-24">
+        <FadeIn>
+          <div
+            className="rounded-2xl px-8 py-10 text-center"
+            style={{ border: "1px dashed #1E1E2E" }}
+          >
+            <div className="flex items-center justify-center gap-2 mb-3">
+              <span className="w-2 h-2 rounded-full bg-violet-400 animate-pulse" />
+              <span className="font-mono text-xs text-violet-400 tracking-widest">EN COURS</span>
+            </div>
+            <p className="text-[#8888AA]">D&apos;autres projets arrivent bientôt.</p>
           </div>
-        )}
+        </FadeIn>
       </section>
     </div>
   );

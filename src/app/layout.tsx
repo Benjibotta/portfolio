@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Benjamin Bottalico — Vidéaste Freelance",
-  description: "Vidéaste freelance basé à Marseille, spécialisé en captation iPhone, montage vidéo et contenu IA. Du brief à la livraison en 5 étapes.",
+  description: "Vidéaste freelance basé à Marseille, spécialisé en tournage professionnel avec matériel mobile haut de gamme, montage vidéo et contenu IA. Du brief à la livraison en 5 étapes.",
 };
 
 export default function RootLayout({

@@ -50,8 +50,8 @@ const steps = [
     number: "04",
     title: "Les Révisions",
     description:
-      "Je partage une version via Frame.io pour un feedback précis avec timestamps. Vous commentez directement sur la vidéo, je corrige et reviens avec une version améliorée. Le processus est fluide et traçable.",
-    details: ["Partage via Frame.io ou WeTransfer", "Commentaires horodatés", "Délai de révision sous 48h", "Jusqu'à N révisions selon le pack"],
+      "Je partage une version via Frame.io pour un feedback précis image par image. Vous commentez directement sur la vidéo, je corrige et reviens avec une version améliorée. Le processus est fluide et traçable.",
+    details: ["Partage via Frame.io ou WeTransfer", "Commentaires horodatés", "Délai de révision sous 48h", "Révisions définies selon le devis"],
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <polyline points="1 4 1 10 7 10" />

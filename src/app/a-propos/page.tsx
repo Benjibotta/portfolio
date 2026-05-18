@@ -6,7 +6,7 @@ import Link from "next/link";
 const skillGroups = [
   {
     label: "Captation",
-    tags: ["iPhone cinématique", "Stabilisation DJI", "DJI Mic Mini", "ProRes Log"],
+    tags: ["iPhone 16 Pro cinématique", "Stabilisation DJI", "DJI Mic Mini", "ProRes Log"],
   },
   {
     label: "Post-production",
@@ -56,11 +56,11 @@ export default function APropos() {
           <div className="space-y-6 text-[#8888AA] leading-relaxed">
             <p>
               Vidéaste freelance basé à Marseille, je me suis spécialisé dans la vidéo augmentée
-              par l&apos;IA. Mon cœur de métier c&apos;est le montage — j&apos;y ajoute la captation iPhone
+              par l&apos;IA. Mon cœur de métier c&apos;est le montage — j&apos;y ajoute le tournage professionnel avec matériel mobile haut de gamme
               professionnelle et la génération de contenu IA pour livrer des productions complètes.
             </p>
             <p>
-              Je couvre l&apos;ensemble de la chaîne : tournage avec iPhone cinématique et stabilisation
+              Je couvre l&apos;ensemble de la chaîne : tournage avec iPhone 16 Pro cinématique et stabilisation
               DJI, son professionnel DJI Mic Mini, post-production complète, et intégration d&apos;IA
               pour des contenus de marque qui sortent du lot.
             </p>

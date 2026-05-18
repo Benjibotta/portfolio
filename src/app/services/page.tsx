@@ -10,7 +10,7 @@ const packs = [
     name: "Captation",
     description: "Tournage professionnel avec du matériel mobile haut de gamme.",
     features: [
-      "Tournage iPhone cinématique",
+      "Tournage iPhone 16 Pro cinématique",
       "Stabilisation DJI",
       "Son professionnel DJI Mic Mini",
       "Cadrage & direction de prise de vue",
@@ -71,7 +71,7 @@ const faqs = [
   },
   {
     q: "Quels formats de fichiers source acceptez-vous ?",
-    a: "J'accepte tous les formats courants : MP4, MOV, MXF, ProRes, et bien d'autres. Pour la captation iPhone, je tourne en ProRes Log pour un maximum de flexibilité en post.",
+    a: "J'accepte tous les formats courants : MP4, MOV, MXF, ProRes, et bien d'autres. Pour le tournage avec iPhone 16 Pro, je tourne en ProRes Log pour un maximum de flexibilité en post.",
   },
   {
     q: "Puis-je combiner plusieurs services ?",
