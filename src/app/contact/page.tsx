@@ -266,7 +266,7 @@ export default function Contact() {
               <h3 className="font-mono text-xs text-violet-400 tracking-widest mb-5">// CONTACT DIRECT</h3>
               <div className="space-y-4">
                 <a
-                  href="mailto:benjamin.bottalico1@gmail.com"
+                  href="mailto:benjaminbottalico.pro@gmail.com"
                   className="flex items-center gap-3 text-sm text-[#8888AA] hover:text-violet-300 transition-colors"
                 >
                   <div className="w-8 h-8 rounded-lg flex items-center justify-center shrink-0" style={{ background: "rgba(127,119,221,0.15)" }}>
@@ -275,33 +275,12 @@ export default function Contact() {
                       <polyline points="22,6 12,13 2,6" />
                     </svg>
                   </div>
-                  benjamin.bottalico1@gmail.com
+                  benjaminbottalico.pro@gmail.com
                 </a>
               </div>
             </div>
 
-            <div
-              className="rounded-2xl p-6"
-              style={{ background: "#13131A", border: "1px solid #1E1E2E" }}
-            >
-              <h3 className="font-mono text-xs text-violet-400 tracking-widest mb-5">// DÉLAIS HABITUELS</h3>
-              <div className="space-y-3 text-sm text-[#8888AA]">
-                {[
-                  ["Réponse au devis", "< 24h"],
-                  ["Démarrage projet", "3–5 jours"],
-                  ["Pack Essentiel", "5–7 jours"],
-                  ["Pack Pro", "7–14 jours"],
-                  ["Pack Premium", "Sur mesure"],
-                ].map(([label, value]) => (
-                  <div key={label} className="flex justify-between">
-                    <span>{label}</span>
-                    <span className="font-mono text-violet-400 text-xs">{value}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            <div
+<div
               className="rounded-2xl p-6"
               style={{ background: "linear-gradient(135deg, rgba(127,119,221,0.1), rgba(55,138,221,0.06))", border: "1px solid rgba(127,119,221,0.2)" }}
             >

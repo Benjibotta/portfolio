@@ -121,16 +121,6 @@ export default function Services() {
                 border: pack.popular ? "1px solid rgba(127,119,221,0.4)" : "1px solid #1E1E2E",
               }}
             >
-              {pack.popular && (
-                <div className="absolute -top-3 left-1/2 -translate-x-1/2">
-                  <span
-                    className="px-3 py-1 rounded-full text-xs font-medium text-white font-mono"
-                    style={{ background: "linear-gradient(90deg, #7F77DD, #378ADD)" }}
-                  >
-                    ✦ Le plus demandé
-                  </span>
-                </div>
-              )}
 
               <div className="mb-6">
                 <div

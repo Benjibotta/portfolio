@@ -69,7 +69,7 @@ export default function APropos() {
             </p>
           </div>
 
-          <div className="mt-10 flex gap-4">
+          <div className="mt-10">
             <Link
               href="/contact"
               className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-medium text-white text-sm"
@@ -77,12 +77,6 @@ export default function APropos() {
             >
               Me contacter
             </Link>
-            <a
-              href="/cv.pdf"
-              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-medium text-[#E8E8F0] text-sm border border-[#1E1E2E] hover:border-violet-500/40 transition-colors"
-            >
-              Télécharger mon CV
-            </a>
           </div>
         </FadeIn>
 

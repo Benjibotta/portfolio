@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -38,9 +39,9 @@ export default function Nav() {
         borderBottom: scrolled ? "1px solid #1E1E2E" : "1px solid transparent",
       }}
     >
-      <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <Link href="/" className="font-mono text-sm tracking-widest text-violet-400 uppercase hover:text-violet-300 transition-colors">
-          &lt;Portfolio /&gt;
+      <nav className="max-w-6xl mx-auto px-6 h-24 flex items-center justify-between">
+        <Link href="/" className="flex items-center hover:opacity-80 transition-opacity">
+          <Image src="/logo.png.png" alt="Logo" height={100} width={400} style={{ height: 100, width: "auto" }} priority />
         </Link>
 
         {/* Desktop */}
