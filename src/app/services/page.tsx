@@ -7,7 +7,7 @@ import { useState } from "react";
 
 const packs = [
   {
-    name: "Captation",
+    name: "Tournage",
     description: "Tournage professionnel avec du matériel mobile haut de gamme.",
     features: [
       "Tournage iPhone 16 Pro cinématique",
@@ -75,7 +75,7 @@ const faqs = [
   },
   {
     q: "Puis-je combiner plusieurs services ?",
-    a: "Absolument. Captation + Montage ou Captation + Production IA sont des combinaisons courantes. On définit ensemble le périmètre exact lors du brief.",
+    a: "Absolument. Tournage + Montage ou Tournage + Production IA sont des combinaisons courantes. On définit ensemble le périmètre exact lors du brief.",
   },
   {
     q: "Comment livrez-vous les fichiers finaux ?",
@@ -105,7 +105,7 @@ export default function Services() {
             </span>
           </h1>
           <p className="text-lg text-[#8888AA] max-w-xl mx-auto">
-            De la captation à la livraison finale, en passant par le montage et l&apos;IA — je couvre l&apos;ensemble de la chaîne de production vidéo.
+            Du tournage à la livraison finale, en passant par le montage et l&apos;IA — je couvre l&apos;ensemble de la chaîne de production vidéo.
           </p>
         </FadeIn>
       </section>

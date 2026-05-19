@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const skillGroups = [
   {
-    label: "Captation",
+    label: "Tournage",
     tags: ["iPhone 16 Pro cinématique", "Stabilisation DJI", "DJI Mic Mini", "ProRes Log"],
   },
   {
@@ -45,7 +45,7 @@ export default function APropos() {
           </h1>
           <p className="text-lg text-[#8888AA] max-w-2xl leading-relaxed">
             Vidéaste freelance basé à Marseille, disponible en remote partout en France.
-            Je filme, je monte — et j&apos;augmente tout ça par l&apos;IA.
+            Monteur vidéo, Créateur IA, Vidéaste.
           </p>
         </FadeIn>
       </section>

@@ -63,9 +63,9 @@ export default function Home() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-none mb-6"
+            className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight mb-6"
           >
-            Je filme, je monte,
+            Vous avez une histoire à raconter,
             <br />
             <span
               style={{
@@ -75,7 +75,7 @@ export default function Home() {
                 backgroundClip: "text",
               }}
             >
-              j&apos;augmente par l&apos;IA
+              je la transforme en vidéo
             </span>
           </motion.h1>
 
