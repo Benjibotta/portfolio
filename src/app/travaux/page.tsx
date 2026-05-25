@@ -4,9 +4,49 @@ import { useState } from "react";
 import FadeIn from "@/components/FadeIn";
 import VideoCard from "@/components/VideoCard";
 
-const categories = ["Tout", "Production IA"];
+const categories = ["Tout", "Tournage", "Montage", "Production IA"];
 
 const allProjects = [
+  {
+    id: 4,
+    title: "BeByJen — Head Spa #1",
+    category: "Tournage",
+    duration: "",
+    videoSrc: "/videos/BeByJen-V1.mp4",
+    poster: "",
+    tags: ["BeByJen", "Head Spa", "Tournage"],
+    vertical: true,
+  },
+  {
+    id: 5,
+    title: "BeByJen — Head Spa #2",
+    category: "Tournage",
+    duration: "",
+    videoSrc: "/videos/BeByJen-V2.mp4",
+    poster: "",
+    tags: ["BeByJen", "Head Spa", "Tournage"],
+    vertical: true,
+  },
+  {
+    id: 6,
+    title: "BeByJen — Head Spa #3",
+    category: "Tournage",
+    duration: "",
+    videoSrc: "/videos/BeByJen-V3.mp4",
+    poster: "",
+    tags: ["BeByJen", "Head Spa", "Tournage"],
+    vertical: true,
+  },
+  {
+    id: 7,
+    title: "Formation Vibe Editor — VK Studio",
+    category: "Montage",
+    duration: "",
+    videoSrc: "/videos/VK-Formation.mp4.mp4",
+    poster: "",
+    tags: ["VK Studio", "Formation", "Montage"],
+    vertical: false,
+  },
   {
     id: 1,
     title: "MMUSA — Spot IA #1",
