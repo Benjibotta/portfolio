@@ -77,6 +77,16 @@ const allProjects = [
     tags: ["MMUSA", "Créatine liquide", "Production IA"],
     vertical: true,
   },
+  {
+    id: 8,
+    title: "L'aube des dirigeants",
+    category: "Tournage",
+    duration: "",
+    videoSrc: "/videos/aube-des-dirigeants.mp4",
+    poster: "",
+    tags: ["L'aube des dirigeants", "Tournage"],
+    vertical: false,
+  },
 ];
 
 export default function Travaux() {
